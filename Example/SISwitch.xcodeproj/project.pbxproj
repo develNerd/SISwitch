@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		645546C8BF0EB645CC19197B /* Pods_SISwitch_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE7276C911CEA9D8BFB3F99 /* Pods_SISwitch_Tests.framework */; };
 		7167D332A57291E6959F6564 /* Pods_SISwitch_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47EC5E90F18DCA29BA98B3E /* Pods_SISwitch_Example.framework */; };
+		D051801C29E4C27300DD8D21 /* SwiftUiSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051801B29E4C27300DD8D21 /* SwiftUiSwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +44,11 @@
 		96778851B0DB473766EC02D0 /* Pods-SISwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SISwitch_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SISwitch_Tests/Pods-SISwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B397912CEDBA8BD2F328E2F0 /* Pods-SISwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SISwitch_Example.debug.xcconfig"; path = "Target Support Files/Pods-SISwitch_Example/Pods-SISwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BBE7276C911CEA9D8BFB3F99 /* Pods_SISwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SISwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6B29ECB001CBC12D4C1B368 /* SISwitch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SISwitch.podspec; path = ../SISwitch.podspec; sourceTree = "<group>"; };
-		D9CA8A0FF8FF4CA42FC15A62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D051801B29E4C27300DD8D21 /* SwiftUiSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiSwitch.swift; sourceTree = "<group>"; };
+		D6B29ECB001CBC12D4C1B368 /* SISwitch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SISwitch.podspec; path = ../SISwitch.podspec; sourceTree = "<group>"; };
+		D9CA8A0FF8FF4CA42FC15A62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E47EC5E90F18DCA29BA98B3E /* Pods_SISwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SISwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E79DA2039B8FC8416D41A915 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E79DA2039B8FC8416D41A915 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for SISwitch */,
+				607FACD21AFB9204008FA782 /* SISwitch */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				BCAA63FE97F37B0455C6616B /* Pods */,
@@ -99,7 +101,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for SISwitch */ = {
+		607FACD21AFB9204008FA782 /* SISwitch */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -108,8 +110,8 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				D051801B29E4C27300DD8D21 /* SwiftUiSwitch.swift */,
 			);
-			name = "Example for SISwitch";
 			path = SISwitch;
 			sourceTree = "<group>";
 		};
@@ -156,7 +158,6 @@
 				96778851B0DB473766EC02D0 /* Pods-SISwitch_Tests.debug.xcconfig */,
 				595496A2E459778269377C87 /* Pods-SISwitch_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -359,6 +361,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				D051801C29E4C27300DD8D21 /* SwiftUiSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -491,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

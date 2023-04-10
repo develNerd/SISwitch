@@ -1,0 +1,6 @@
+framework module Pods_SISwitch_Tests {
+  umbrella header "Pods-SISwitch_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
