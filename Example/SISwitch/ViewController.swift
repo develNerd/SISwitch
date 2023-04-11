@@ -22,3 +22,9 @@ class ViewController: UIViewController {
 
 }
 
+class TestDelef {
+    init(){
+        
+    }
+}
+

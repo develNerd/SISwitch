@@ -28,14 +28,13 @@ public struct JCSwitch: View {
     @State private var currentState: SwitchState = .notEnabled
     @State private var switchSize: CGFloat = 50
     
-    
 
     let enabledColor: Color
     let disabledColor: Color
     let isChecked: Bool
     let onCheckChanged: (Bool) -> Void
 
-    init(enabledColor: Color = .blue, disabledColor: Color = .gray, size: CGFloat = 50, isChecked: Bool = false, onCheckChanged: @escaping (Bool) -> Void) {
+    public init(enabledColor: Color = .blue, disabledColor: Color = .gray, size: CGFloat = 50, isChecked: Bool = false, onCheckChanged: @escaping (Bool) -> Void) {
         self.enabledColor = enabledColor
         self.disabledColor = disabledColor
         self.switchSize = size
