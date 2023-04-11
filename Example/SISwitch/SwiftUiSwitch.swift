@@ -9,15 +9,6 @@
 import Foundation
 import SwiftUI
 
-//
-//  SwiftUISwitch.swift
-//  TelnyxAndroidClient
-//
-//  Created by Isaac Akakpo on 10/04/2023.
-//
-
-import Foundation
-import SwiftUI
 
 enum SwitchState {
 case isEnabled

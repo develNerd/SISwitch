@@ -16,6 +16,7 @@
 		645546C8BF0EB645CC19197B /* Pods_SISwitch_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE7276C911CEA9D8BFB3F99 /* Pods_SISwitch_Tests.framework */; };
 		7167D332A57291E6959F6564 /* Pods_SISwitch_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47EC5E90F18DCA29BA98B3E /* Pods_SISwitch_Example.framework */; };
 		D051801C29E4C27300DD8D21 /* SwiftUiSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051801B29E4C27300DD8D21 /* SwiftUiSwitch.swift */; };
+		D0B19C1729E61EF300A17F80 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B19C1629E61EF300A17F80 /* SwiftyLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,7 @@
 /* Begin PBXFileReference section */
 		408EC0B40791FA5D9E90EF68 /* Pods-SISwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SISwitch_Example.release.xcconfig"; path = "Target Support Files/Pods-SISwitch_Example/Pods-SISwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
 		595496A2E459778269377C87 /* Pods-SISwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SISwitch_Tests.release.xcconfig"; path = "Target Support Files/Pods-SISwitch_Tests/Pods-SISwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* SISwitch_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SISwitch_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* SISwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SISwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		B397912CEDBA8BD2F328E2F0 /* Pods-SISwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SISwitch_Example.debug.xcconfig"; path = "Target Support Files/Pods-SISwitch_Example/Pods-SISwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BBE7276C911CEA9D8BFB3F99 /* Pods_SISwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SISwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D051801B29E4C27300DD8D21 /* SwiftUiSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiSwitch.swift; sourceTree = "<group>"; };
+		D0B19C1629E61EF300A17F80 /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
 		D6B29ECB001CBC12D4C1B368 /* SISwitch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SISwitch.podspec; path = ../SISwitch.podspec; sourceTree = "<group>"; };
 		D9CA8A0FF8FF4CA42FC15A62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E47EC5E90F18DCA29BA98B3E /* Pods_SISwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SISwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +97,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* SISwitch_Example.app */,
+				607FACD01AFB9204008FA782 /* SISwitch.app */,
 				607FACE51AFB9204008FA782 /* SISwitch_Tests.xctest */,
 			);
 			name = Products;
@@ -111,6 +113,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 				D051801B29E4C27300DD8D21 /* SwiftUiSwitch.swift */,
+				D0B19C1629E61EF300A17F80 /* SwiftyLib.swift */,
 			);
 			path = SISwitch;
 			sourceTree = "<group>";
@@ -164,9 +167,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* SISwitch_Example */ = {
+		607FACCF1AFB9204008FA782 /* SISwitch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SISwitch_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SISwitch" */;
 			buildPhases = (
 				6AA81A3D01E096C9259D0193 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -178,9 +181,9 @@
 			);
 			dependencies = (
 			);
-			name = SISwitch_Example;
+			name = SISwitch;
 			productName = SISwitch;
-			productReference = 607FACD01AFB9204008FA782 /* SISwitch_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* SISwitch.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* SISwitch_Tests */ = {
@@ -238,7 +241,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* SISwitch_Example */,
+				607FACCF1AFB9204008FA782 /* SISwitch */,
 				607FACE41AFB9204008FA782 /* SISwitch_Tests */,
 			);
 		};
@@ -362,6 +365,7 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				D051801C29E4C27300DD8D21 /* SwiftUiSwitch.swift in Sources */,
+				D0B19C1729E61EF300A17F80 /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +382,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* SISwitch_Example */;
+			target = 607FACCF1AFB9204008FA782 /* SISwitch */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -584,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SISwitch_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SISwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,

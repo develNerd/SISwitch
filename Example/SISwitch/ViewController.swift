@@ -22,9 +22,9 @@ class ViewController: UIViewController {
 
 }
 
-class TestDelef {
-    init(){
-        
+public class TestDelef {
+    public init(){
+     
     }
 }
 

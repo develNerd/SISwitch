@@ -1,12 +1,15 @@
 // https://github.com/Quick/Quick
 
 
-import Foundation
-import SwiftUI
-import SISwitch
 
-func mof(){
-   // TestDelef()
+import XCTest
+@testable import SISwitch
+
+
+class SwiftyLibTests: XCTestCase {
     
+    func test() {
+        
+    }
 }
 
