@@ -27,6 +27,8 @@ case notEnabled
 public struct JCSwitch: View {
     @State private var currentState: SwitchState = .notEnabled
     @State private var switchSize: CGFloat = 50
+    
+    
 
     let enabledColor: Color
     let disabledColor: Color
@@ -45,7 +47,7 @@ public struct JCSwitch: View {
         }
     }
 
-    var body: some View {
+    public var body: some View {
         let clickable = Button(action: {
             if currentState == .isEnabled {
                 onCheckChanged(false)
@@ -64,7 +66,7 @@ public struct JCSwitch: View {
                     .fill(Color.white)
                     .frame(width: (switchSize / 2) - 3, height: (switchSize / 2) - 3)
                     .padding([.leading],-(switchSize / 2) + 1)
-                    .offset(x: currentState == .isEnabled ? 0 : (switchSize / 2) - 1, y: 0)
+                    .offset(x: currentState == .isEnabled ? (switchSize / 2) - 1 : 0, y: 0)
                 
             }
             .overlay(RoundedRectangle(cornerRadius: switchSize / 2)
@@ -89,7 +91,7 @@ public struct JCSwitch: View {
 struct ContentView_Previews2: PreviewProvider {
     static var previews: some View {
         JCSwitch(
-                        isChecked: true,
+                        isChecked: false,
                         onCheckChanged: { isOn in
                            //isOn
                         }
