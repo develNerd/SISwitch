@@ -45,7 +45,6 @@ struct JCSwitch: View {
         }
     }
 
-    @available(iOS 15.0, *)
     var body: some View {
         let clickable = Button(action: {
             if currentState == .isEnabled {
