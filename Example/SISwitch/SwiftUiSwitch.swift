@@ -24,7 +24,7 @@ case isEnabled
 case notEnabled
 }
 
-struct JCSwitch: View {
+public struct JCSwitch: View {
     @State private var currentState: SwitchState = .notEnabled
     @State private var switchSize: CGFloat = 50
 
