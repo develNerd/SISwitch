@@ -17,6 +17,8 @@ case notEnabled
 public struct SCSwitch: View {
     @State private var currentState: SwitchState = .notEnabled
     @State private var switchSize: CGFloat = 50
+    
+    
 
     let enabledColor: Color
     let disabledColor: Color

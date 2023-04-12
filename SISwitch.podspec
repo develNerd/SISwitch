@@ -29,9 +29,10 @@ SISwitch helps developres eaisly integrate a switch into their applications inst
   s.source           = { :git => 'https://github.com/develNerd/SISwitch.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '13.5'
 
-  s.source_files = 'SISwitch/Classes/**/*'
+  s.source_files = 'Classes/**/*'
+
   
   # s.resource_bundles = {
   #   'SISwitch' => ['SISwitch/Assets/*.png']
