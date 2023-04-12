@@ -37,7 +37,7 @@
 		289B613DD13E58EA28C0DFAF4358BA68 /* ElementsEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C845FAFD7636577ED939D9558B2211 /* ElementsEqual.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		28D6E884D7AB6CF2B4BFF328D2537D22 /* SatisfyAllOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91101B377D1A125A79001336CA4E0D5 /* SatisfyAllOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7E5A8B31DB9EDACCE10D7CC1316D4 /* SwiftSupport.swift */; };
-		2A35D1F16FDA8146BEE336DCDEACFD7D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8172DEF189016FEC35C1B1709DDCCD6 /* ReplaceMe.swift */; };
+		2A35D1F16FDA8146BEE336DCDEACFD7D /* SwiftUiSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8172DEF189016FEC35C1B1709DDCCD6 /* SwiftUiSwitch.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8DA2BFC02750F937C92161B4FC0C21 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BB7387C6CB86B2D81F8867666F84737 /* Pods-SISwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9948E28417556C5ECAFEC7693612D /* Pods-SISwitch_Tests-dummy.m */; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB664A89C40981F73FB9CD88F5CE7F3 /* UIImage+Snapshot.m */; };
@@ -318,7 +318,7 @@
 		47B71FE504838614B98C5A709BE0E0A6 /* iOSSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		49F56E1E8DD04A5CE1293CFC1531BCD9 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		4A4BAE9B563E255A116D39B57785BB37 /* CurrentTestCaseTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentTestCaseTracker.swift; path = Nimble_Snapshots/CurrentTestCaseTracker.swift; sourceTree = "<group>"; };
-		4B240FC34BC138AD1ED8483827B0E8A2 /* SISwitch */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SISwitch; path = SISwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B240FC34BC138AD1ED8483827B0E8A2 /* SISwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SISwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5DD2A4FAACB48177F41335474BFCD2 /* SISwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SISwitch-prefix.pch"; sourceTree = "<group>"; };
 		4B9ED29117F3097B2FFC456D03EE4689 /* QuickConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickConfiguration.swift; path = Sources/Quick/Configuration/QuickConfiguration.swift; sourceTree = "<group>"; };
 		4CB45E2F7379BD9465194F1F7251BFBD /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
@@ -456,7 +456,7 @@
 		E31BA4B9FF18CE2CB9650A953BAFE9AE /* XCTestObservationCenter+Register.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+Register.m"; path = "Sources/NimbleObjectiveC/XCTestObservationCenter+Register.m"; sourceTree = "<group>"; };
 		E5BD8B5328D68434C0A104B8A0FAC91F /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E8172DEF189016FEC35C1B1709DDCCD6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SISwitch/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E8172DEF189016FEC35C1B1709DDCCD6 /* SwiftUiSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUiSwitch.swift; path = SISwitch/Classes/SwiftUiSwitch.swift; sourceTree = "<group>"; };
 		E832A6B1DAC31C3F7970178C4A4F3384 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/DSL.h; sourceTree = "<group>"; };
 		EA5A40000FB3D9B248B8997A93370DBF /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
 		EA93A22E63F32984A0186E5DC2B7501F /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
@@ -961,7 +961,7 @@
 		E12529C4E0F3E3D3AD3D4C068BA9A36F /* SISwitch */ = {
 			isa = PBXGroup;
 			children = (
-				E8172DEF189016FEC35C1B1709DDCCD6 /* ReplaceMe.swift */,
+				E8172DEF189016FEC35C1B1709DDCCD6 /* SwiftUiSwitch.swift */,
 				4A5893B9234061B09AE6860D53C43D96 /* Pod */,
 				1834A4682A9FB07D113A145388EEBE83 /* Support Files */,
 			);
@@ -979,7 +979,7 @@
 				058F92A73EB42A495F8AD14368074D45 /* Pods-SISwitch_Example */,
 				3BC31D2D1620454FBCCA4F653F8F78D8 /* Pods-SISwitch_Tests */,
 				0D631E9908483F9525A6B3F36F16CC61 /* Quick */,
-				4B240FC34BC138AD1ED8483827B0E8A2 /* SISwitch */,
+				4B240FC34BC138AD1ED8483827B0E8A2 /* SISwitch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1168,7 +1168,7 @@
 			);
 			name = SISwitch;
 			productName = SISwitch;
-			productReference = 4B240FC34BC138AD1ED8483827B0E8A2 /* SISwitch */;
+			productReference = 4B240FC34BC138AD1ED8483827B0E8A2 /* SISwitch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C17F5AE15E4EE7398DEE915C065BB901 /* Pods-SISwitch_Example */ = {
@@ -1491,7 +1491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A35D1F16FDA8146BEE336DCDEACFD7D /* ReplaceMe.swift in Sources */,
+				2A35D1F16FDA8146BEE336DCDEACFD7D /* SwiftUiSwitch.swift in Sources */,
 				E7DF943329AE9F799F84FFCA2B37C16F /* SISwitch-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1853,7 +1853,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SISwitch/SISwitch-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SISwitch/SISwitch-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SISwitch/SISwitch.modulemap";
 				PRODUCT_MODULE_NAME = SISwitch;
@@ -2141,7 +2141,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SISwitch/SISwitch-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SISwitch/SISwitch-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SISwitch/SISwitch.modulemap";
 				PRODUCT_MODULE_NAME = SISwitch;
