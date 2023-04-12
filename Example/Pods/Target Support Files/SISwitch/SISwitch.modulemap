@@ -1,0 +1,6 @@
+framework module SISwitch {
+  umbrella header "SISwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

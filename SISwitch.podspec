@@ -7,9 +7,10 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SISwitch'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SISwitch.'
+ s.name             = 'SISwitch'
+ s.version          = '0.1.7'
+ s.summary          = 'SIWitch presents an easily way to create a custom switch in SwiftUI'
+ s.swift_version = '4.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +19,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+SISwitch helps developres eaisly integrate a switch into their applications instead of the one provided by SWiftUI
                        DESC
 
-  s.homepage         = 'https://github.com/x-oauth-basic/SISwitch'
+  s.homepage         = 'https://github.com/develNerd/SISwitch.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'x-oauth-basic' => 'isaacakakpo4@gmail.com' }
-  s.source           = { :git => 'https://github.com/x-oauth-basic/SISwitch.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/develNerd/SISwitch.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'SISwitch/Classes/**/*'
   

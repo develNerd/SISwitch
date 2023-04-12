@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C95C5C5F578BBB2E79E49D170FF77BF /* Pods-SISwitch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 552AA0B1DD2F376C9B1F9A9B98370591 /* Pods-SISwitch_Example-dummy.m */; };
+		2068B5E8A71A4D838FE60585EDDE9781 /* SISwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B56EA21467DB5967B05F53F67B7C1D94 /* SISwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A35D1F16FDA8146BEE336DCDEACFD7D /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8172DEF189016FEC35C1B1709DDCCD6 /* Switch.swift */; };
+		4C8B2F8EB83317452200B66061028039 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		647F0A9258DC1441176BA2E3D96572AB /* Pods-SISwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA23DB488BCE53408DA7274E0CED10 /* Pods-SISwitch_Tests-dummy.m */; };
+		977F419918078B74D3B48836D0DCB9B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A3D3CC63E81EDE8509F1B0179BE0918E /* Pods-SISwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7358C280C1ABB484D95D8CE77DD9FE35 /* Pods-SISwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0EC6F24280DFB3E631BDABD69A7DCD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E7DF943329AE9F799F84FFCA2B37C16F /* SISwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70420E7905AABF99E22BF8AB900AC79F /* SISwitch-dummy.m */; };
+		F3B8BBACC4D2361BA02B0E2323BD9E1E /* Pods-SISwitch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C96ACB0E1FE7CBD0F676CE67605E6EC /* Pods-SISwitch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DA5F859A86AF5BE4F604BB1E6ED1B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17F5AE15E4EE7398DEE915C065BB901;
+			remoteInfo = "Pods-SISwitch_Example";
+		};
+		F720B8FACDED3CAA45A9127DD61AC128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5DD244A8F839F8C6A5C34610BFAB775;
+			remoteInfo = SISwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BA44D58E134512D3AA82C78A983A76 /* Pods-SISwitch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SISwitch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		058F92A73EB42A495F8AD14368074D45 /* Pods-SISwitch_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SISwitch_Example"; path = Pods_SISwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0752F3FCEDB85A89126AEF69D8D1977E /* Pods-SISwitch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SISwitch_Example.modulemap"; sourceTree = "<group>"; };
+		0C737FDDC3D67832260EB38FFF7500AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0E4BA381F50BF44C169C3B1B327E8B0A /* SISwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SISwitch.debug.xcconfig; sourceTree = "<group>"; };
+		1302FBC09D0D6FFDE7A0B14D22AD7CBE /* SISwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SISwitch.release.xcconfig; sourceTree = "<group>"; };
+		1CC18B5695F6879870E04E282DE95918 /* Pods-SISwitch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SISwitch_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1CF42D470B1DDD28DBFBA1C074A9E43C /* Pods-SISwitch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SISwitch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C338920249BABCA0EA9B956E3A7FA5D /* SISwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SISwitch.modulemap; sourceTree = "<group>"; };
+		38DE95E98803139A377E7BE2D907B304 /* Pods-SISwitch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SISwitch_Tests.modulemap"; sourceTree = "<group>"; };
+		3BC31D2D1620454FBCCA4F653F8F78D8 /* Pods-SISwitch_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SISwitch_Tests"; path = Pods_SISwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B240FC34BC138AD1ED8483827B0E8A2 /* SISwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SISwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5DD2A4FAACB48177F41335474BFCD2 /* SISwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SISwitch-prefix.pch"; sourceTree = "<group>"; };
+		4C0AFFD7D71BEB7C91EE4988CED2CCF4 /* Pods-SISwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SISwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		552AA0B1DD2F376C9B1F9A9B98370591 /* Pods-SISwitch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SISwitch_Example-dummy.m"; sourceTree = "<group>"; };
+		607564E87F7058038504894265D3C7CC /* SISwitch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SISwitch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C96ACB0E1FE7CBD0F676CE67605E6EC /* Pods-SISwitch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SISwitch_Example-umbrella.h"; sourceTree = "<group>"; };
+		6CF6AF3DA43176219C7EE7F9559924FF /* Pods-SISwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SISwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		70420E7905AABF99E22BF8AB900AC79F /* SISwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SISwitch-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7358C280C1ABB484D95D8CE77DD9FE35 /* Pods-SISwitch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SISwitch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7C12A0BD4605309AC2FFBBCD87CF05BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7C2282BB6176C255EF4CDB49A5A8C17B /* SISwitch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SISwitch-Info.plist"; sourceTree = "<group>"; };
+		8587A56720C1DB4AFB37BC9ACD920C6B /* Pods-SISwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SISwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F0C635BE3C6731264ECC64C3F4CDDE8 /* Pods-SISwitch_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SISwitch_Tests-Info.plist"; sourceTree = "<group>"; };
+		90C5BC414BFD8E42B4F9AC451FA41C1E /* Pods-SISwitch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SISwitch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		98D634C0D5FBD6B98BEB75E6D9B14053 /* Pods-SISwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SISwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9AEA23DB488BCE53408DA7274E0CED10 /* Pods-SISwitch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SISwitch_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B56EA21467DB5967B05F53F67B7C1D94 /* SISwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SISwitch-umbrella.h"; sourceTree = "<group>"; };
+		C255E32793C8AA4F2D5C14B08D1F90F6 /* Pods-SISwitch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SISwitch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E13826850F8F180A616707C9E452201E /* Pods-SISwitch_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SISwitch_Example-Info.plist"; sourceTree = "<group>"; };
+		E8172DEF189016FEC35C1B1709DDCCD6 /* Switch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		457EE98B56F1264B1F542BCCF5A67791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977F419918078B74D3B48836D0DCB9B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4E2B012E7E6ABE23CF9B74AB7A9B90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EC6F24280DFB3E631BDABD69A7DCD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AEF59E167CA522CA12D5B9D15E410E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8B2F8EB83317452200B66061028039 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1834A4682A9FB07D113A145388EEBE83 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C338920249BABCA0EA9B956E3A7FA5D /* SISwitch.modulemap */,
+				70420E7905AABF99E22BF8AB900AC79F /* SISwitch-dummy.m */,
+				7C2282BB6176C255EF4CDB49A5A8C17B /* SISwitch-Info.plist */,
+				4B5DD2A4FAACB48177F41335474BFCD2 /* SISwitch-prefix.pch */,
+				B56EA21467DB5967B05F53F67B7C1D94 /* SISwitch-umbrella.h */,
+				0E4BA381F50BF44C169C3B1B327E8B0A /* SISwitch.debug.xcconfig */,
+				1302FBC09D0D6FFDE7A0B14D22AD7CBE /* SISwitch.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SISwitch";
+			sourceTree = "<group>";
+		};
+		227A561296AE0ADF8C3CF0EDD04156A2 /* Pods-SISwitch_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				38DE95E98803139A377E7BE2D907B304 /* Pods-SISwitch_Tests.modulemap */,
+				C255E32793C8AA4F2D5C14B08D1F90F6 /* Pods-SISwitch_Tests-acknowledgements.markdown */,
+				90C5BC414BFD8E42B4F9AC451FA41C1E /* Pods-SISwitch_Tests-acknowledgements.plist */,
+				9AEA23DB488BCE53408DA7274E0CED10 /* Pods-SISwitch_Tests-dummy.m */,
+				8F0C635BE3C6731264ECC64C3F4CDDE8 /* Pods-SISwitch_Tests-Info.plist */,
+				7358C280C1ABB484D95D8CE77DD9FE35 /* Pods-SISwitch_Tests-umbrella.h */,
+				8587A56720C1DB4AFB37BC9ACD920C6B /* Pods-SISwitch_Tests.debug.xcconfig */,
+				6CF6AF3DA43176219C7EE7F9559924FF /* Pods-SISwitch_Tests.release.xcconfig */,
+			);
+			name = "Pods-SISwitch_Tests";
+			path = "Target Support Files/Pods-SISwitch_Tests";
+			sourceTree = "<group>";
+		};
+		48B0A94DF5A4189641FE87B870886E23 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A1368EEF476B127EFDC8883247A1BC8 /* Pods-SISwitch_Example */,
+				227A561296AE0ADF8C3CF0EDD04156A2 /* Pods-SISwitch_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4A5893B9234061B09AE6860D53C43D96 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0C737FDDC3D67832260EB38FFF7500AB /* LICENSE */,
+				7C12A0BD4605309AC2FFBBCD87CF05BE /* README.md */,
+				607564E87F7058038504894265D3C7CC /* SISwitch.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A1368EEF476B127EFDC8883247A1BC8 /* Pods-SISwitch_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0752F3FCEDB85A89126AEF69D8D1977E /* Pods-SISwitch_Example.modulemap */,
+				03BA44D58E134512D3AA82C78A983A76 /* Pods-SISwitch_Example-acknowledgements.markdown */,
+				1CF42D470B1DDD28DBFBA1C074A9E43C /* Pods-SISwitch_Example-acknowledgements.plist */,
+				552AA0B1DD2F376C9B1F9A9B98370591 /* Pods-SISwitch_Example-dummy.m */,
+				1CC18B5695F6879870E04E282DE95918 /* Pods-SISwitch_Example-frameworks.sh */,
+				E13826850F8F180A616707C9E452201E /* Pods-SISwitch_Example-Info.plist */,
+				6C96ACB0E1FE7CBD0F676CE67605E6EC /* Pods-SISwitch_Example-umbrella.h */,
+				4C0AFFD7D71BEB7C91EE4988CED2CCF4 /* Pods-SISwitch_Example.debug.xcconfig */,
+				98D634C0D5FBD6B98BEB75E6D9B14053 /* Pods-SISwitch_Example.release.xcconfig */,
+			);
+			name = "Pods-SISwitch_Example";
+			path = "Target Support Files/Pods-SISwitch_Example";
+			sourceTree = "<group>";
+		};
+		7BCB3A4465EF26E0B93162F7F9778574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				058F92A73EB42A495F8AD14368074D45 /* Pods-SISwitch_Example */,
+				3BC31D2D1620454FBCCA4F653F8F78D8 /* Pods-SISwitch_Tests */,
+				4B240FC34BC138AD1ED8483827B0E8A2 /* SISwitch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B5D2E7CE4A80322B2B27391B8CC8A2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E12529C4E0F3E3D3AD3D4C068BA9A36F /* SISwitch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C6B5D2E7CE4A80322B2B27391B8CC8A2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7BCB3A4465EF26E0B93162F7F9778574 /* Products */,
+				48B0A94DF5A4189641FE87B870886E23 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B19C1C29E6D52D00A17F80 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E8172DEF189016FEC35C1B1709DDCCD6 /* Switch.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E12529C4E0F3E3D3AD3D4C068BA9A36F /* SISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				D0B19C1C29E6D52D00A17F80 /* Classes */,
+				4A5893B9234061B09AE6860D53C43D96 /* Pod */,
+				1834A4682A9FB07D113A145388EEBE83 /* Support Files */,
+			);
+			name = SISwitch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AEB42EBD9083E2D912846A7269F4782 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D3CC63E81EDE8509F1B0179BE0918E /* Pods-SISwitch_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6459AE71CF03ED257D54A83B5BE45553 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B8BBACC4D2361BA02B0E2323BD9E1E /* Pods-SISwitch_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BCC6220AF912FC3714460AED96F4E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2068B5E8A71A4D838FE60585EDDE9781 /* SISwitch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8C21ECEC9B4860E91EB7781EF88539E4 /* Pods-SISwitch_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC1C9AB13625B41D77460EDF4776A82 /* Build configuration list for PBXNativeTarget "Pods-SISwitch_Tests" */;
+			buildPhases = (
+				3AEB42EBD9083E2D912846A7269F4782 /* Headers */,
+				73580BDECA58E25FDE67AE9516C7E871 /* Sources */,
+				CA4E2B012E7E6ABE23CF9B74AB7A9B90 /* Frameworks */,
+				2FF57552EDB6CC054826A90BDC8C7CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E373F1B8E26B5B082C50FF3442A1F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-SISwitch_Tests";
+			productName = Pods_SISwitch_Tests;
+			productReference = 3BC31D2D1620454FBCCA4F653F8F78D8 /* Pods-SISwitch_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5DD244A8F839F8C6A5C34610BFAB775 /* SISwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595EE0BF07606D830A47B61B085CFF26 /* Build configuration list for PBXNativeTarget "SISwitch" */;
+			buildPhases = (
+				B4BCC6220AF912FC3714460AED96F4E3 /* Headers */,
+				9364B5DAF4E98D6A945A8C8EF950ED2E /* Sources */,
+				F1AEF59E167CA522CA12D5B9D15E410E /* Frameworks */,
+				BA9D73A223573AD06A3DE5F2EF5FA709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SISwitch;
+			productName = SISwitch;
+			productReference = 4B240FC34BC138AD1ED8483827B0E8A2 /* SISwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C17F5AE15E4EE7398DEE915C065BB901 /* Pods-SISwitch_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D513B7BF6DB9D2F99FB96E20208F85 /* Build configuration list for PBXNativeTarget "Pods-SISwitch_Example" */;
+			buildPhases = (
+				6459AE71CF03ED257D54A83B5BE45553 /* Headers */,
+				90655FD9CC0FC61767C0E8091296C78E /* Sources */,
+				457EE98B56F1264B1F542BCCF5A67791 /* Frameworks */,
+				61245923E264D5556B4FC7BB91D9040D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				142EF032651568879E23B4A8B7D84A51 /* PBXTargetDependency */,
+			);
+			name = "Pods-SISwitch_Example";
+			productName = Pods_SISwitch_Example;
+			productReference = 058F92A73EB42A495F8AD14368074D45 /* Pods-SISwitch_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7BCB3A4465EF26E0B93162F7F9778574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C17F5AE15E4EE7398DEE915C065BB901 /* Pods-SISwitch_Example */,
+				8C21ECEC9B4860E91EB7781EF88539E4 /* Pods-SISwitch_Tests */,
+				B5DD244A8F839F8C6A5C34610BFAB775 /* SISwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FF57552EDB6CC054826A90BDC8C7CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61245923E264D5556B4FC7BB91D9040D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9D73A223573AD06A3DE5F2EF5FA709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73580BDECA58E25FDE67AE9516C7E871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647F0A9258DC1441176BA2E3D96572AB /* Pods-SISwitch_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90655FD9CC0FC61767C0E8091296C78E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C95C5C5F578BBB2E79E49D170FF77BF /* Pods-SISwitch_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9364B5DAF4E98D6A945A8C8EF950ED2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A35D1F16FDA8146BEE336DCDEACFD7D /* Switch.swift in Sources */,
+				E7DF943329AE9F799F84FFCA2B37C16F /* SISwitch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		142EF032651568879E23B4A8B7D84A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SISwitch;
+			target = B5DD244A8F839F8C6A5C34610BFAB775 /* SISwitch */;
+			targetProxy = F720B8FACDED3CAA45A9127DD61AC128 /* PBXContainerItemProxy */;
+		};
+		40E373F1B8E26B5B082C50FF3442A1F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SISwitch_Example";
+			target = C17F5AE15E4EE7398DEE915C065BB901 /* Pods-SISwitch_Example */;
+			targetProxy = 3DA5F859A86AF5BE4F604BB1E6ED1B74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AB09D819DF8DB5488FE0963C74A6ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D634C0D5FBD6B98BEB75E6D9B14053 /* Pods-SISwitch_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SISwitch_Example/Pods-SISwitch_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SISwitch_Example/Pods-SISwitch_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C424BE5CFED2E9C2D5FE369FA0AA4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0AFFD7D71BEB7C91EE4988CED2CCF4 /* Pods-SISwitch_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SISwitch_Example/Pods-SISwitch_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SISwitch_Example/Pods-SISwitch_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1CE7116E71183EF47555C581FF861E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4BA381F50BF44C169C3B1B327E8B0A /* SISwitch.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SISwitch/SISwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SISwitch/SISwitch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SISwitch/SISwitch.modulemap";
+				PRODUCT_MODULE_NAME = SISwitch;
+				PRODUCT_NAME = SISwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		266617139E19A9BA1045BC58FA0B66BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF6AF3DA43176219C7EE7F9559924FF /* Pods-SISwitch_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SISwitch_Tests/Pods-SISwitch_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SISwitch_Tests/Pods-SISwitch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5EA6DEF7EB04D9BB0D5EE729491DFC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8587A56720C1DB4AFB37BC9ACD920C6B /* Pods-SISwitch_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SISwitch_Tests/Pods-SISwitch_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SISwitch_Tests/Pods-SISwitch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		768361CCA374256AD14BB4513EE10E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1302FBC09D0D6FFDE7A0B14D22AD7CBE /* SISwitch.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SISwitch/SISwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SISwitch/SISwitch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SISwitch/SISwitch.modulemap";
+				PRODUCT_MODULE_NAME = SISwitch;
+				PRODUCT_NAME = SISwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595EE0BF07606D830A47B61B085CFF26 /* Build configuration list for PBXNativeTarget "SISwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE7116E71183EF47555C581FF861E63 /* Debug */,
+				768361CCA374256AD14BB4513EE10E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D513B7BF6DB9D2F99FB96E20208F85 /* Build configuration list for PBXNativeTarget "Pods-SISwitch_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C424BE5CFED2E9C2D5FE369FA0AA4C8 /* Debug */,
+				0AB09D819DF8DB5488FE0963C74A6ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC1C9AB13625B41D77460EDF4776A82 /* Build configuration list for PBXNativeTarget "Pods-SISwitch_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA6DEF7EB04D9BB0D5EE729491DFC0E /* Debug */,
+				266617139E19A9BA1045BC58FA0B66BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

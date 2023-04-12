@@ -1,0 +1,16 @@
+PODS:
+  - SISwitch (0.1.0)
+
+DEPENDENCIES:
+  - SISwitch (from `../`)
+
+EXTERNAL SOURCES:
+  SISwitch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SISwitch: feeb745f8819e3c069c9a9185b3af15ec7e54e60
+
+PODFILE CHECKSUM: 816ad6e067554c3a11b04ca6ddf7be1509ffeaf6
+
+COCOAPODS: 1.12.0

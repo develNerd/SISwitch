@@ -1,5 +1,4 @@
 import XCTest
-import SISwitch
 
 class Tests: XCTestCase {
     

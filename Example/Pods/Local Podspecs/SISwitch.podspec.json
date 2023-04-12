@@ -1,0 +1,22 @@
+{
+  "name": "SISwitch",
+  "version": "0.1.0",
+  "summary": "A short description of SISwitch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/x-oauth-basic/SISwitch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "x-oauth-basic": "isaacakakpo4@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/x-oauth-basic/SISwitch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SISwitch/Classes/**/*"
+}

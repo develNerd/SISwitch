@@ -7,10 +7,14 @@
 //
 
 import SwiftUI
+import SISwitch
 
 struct SwiftUIView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        SCSwitch(onCheckChanged: {bol in
+            
+        })
+        //Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 

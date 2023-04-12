@@ -1,0 +1,6 @@
+framework module Pods_SISwitch_Example {
+  umbrella header "Pods-SISwitch_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
