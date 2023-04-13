@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
  s.name             = 'SISwitch'
- s.version          = '0.1.7'
+ s.version          = '0.1.8'
  s.summary          = 'SIWitch presents an easily way to create a custom switch in SwiftUI'
  s.swift_version = '4.0'
 
